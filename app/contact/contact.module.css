@@ -1,0 +1,130 @@
+.main {
+  flex: 1;
+  padding: 3rem 1rem;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.title {
+  font-size: 2.5rem;
+  color: #2a1f1a;
+  margin-bottom: 2rem;
+  line-height: 1.2;
+}
+
+.section {
+  margin-bottom: 3rem;
+}
+
+.intro {
+  font-size: 1.1rem;
+  color: #4a3f3a;
+  line-height: 1.9;
+}
+
+.form {
+  background: white;
+  padding: 2.5rem;
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(42, 31, 26, 0.06);
+  border: 1px solid rgba(212, 135, 107, 0.1);
+}
+
+.formGroup {
+  margin-bottom: 2rem;
+}
+
+.label {
+  display: block;
+  margin-bottom: 0.75rem;
+  color: #2a1f1a;
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+.input,
+.textarea {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  border: 1px solid rgba(139, 127, 122, 0.3);
+  border-radius: 8px;
+  font-size: 1rem;
+  color: #2a1f1a;
+  background: #fafaf8;
+  transition: border-color 0.3s ease, background-color 0.3s ease;
+  font-family: inherit;
+}
+
+.input:focus,
+.textarea:focus {
+  outline: none;
+  border-color: #d4876b;
+  background: white;
+  box-shadow: 0 0 0 3px rgba(212, 135, 107, 0.1);
+}
+
+.textarea {
+  resize: vertical;
+  line-height: 1.6;
+}
+
+.button {
+  background: linear-gradient(135deg, #d4876b 0%, #c56a52 100%);
+  color: white;
+  padding: 1rem 2rem;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 12px rgba(212, 135, 107, 0.3);
+}
+
+.button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(212, 135, 107, 0.4);
+}
+
+.button:active {
+  transform: translateY(0);
+}
+
+.successMessage {
+  background: #e8f5e9;
+  border: 1px solid #81c784;
+  color: #2e7d32;
+  padding: 1rem 1.5rem;
+  border-radius: 8px;
+  margin-bottom: 2rem;
+  font-weight: 500;
+}
+
+.errorMessage {
+  background: #ffebee;
+  border: 1px solid #e57373;
+  color: #c62828;
+  padding: 1rem 1.5rem;
+  border-radius: 8px;
+  margin-bottom: 2rem;
+  font-weight: 500;
+}
+
+@media (max-width: 768px) {
+  .main {
+    padding: 1.5rem 1rem;
+  }
+
+  .title {
+    font-size: 1.8rem;
+  }
+
+  .form {
+    padding: 1.5rem;
+  }
+
+  .button {
+    width: 100%;
+  }
+}

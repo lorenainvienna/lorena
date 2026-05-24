@@ -1,0 +1,30 @@
+.footer {
+  background: linear-gradient(135deg, #fde0c5 0%, #f8cba8 100%);
+  border-top: 1px solid rgba(200, 58, 18, 0.15);
+  padding: 3rem 1rem;
+  margin-top: 4rem;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.text {
+  font-size: 1rem;
+  color: #4a3f3a;
+  margin-bottom: 1rem;
+  font-style: italic;
+}
+
+.copyright {
+  font-size: 0.9rem;
+  color: #8b7f7a;
+}
+
+@media (max-width: 768px) {
+  .footer {
+    padding: 2rem 1rem;
+  }
+}
