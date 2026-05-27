@@ -1,7 +1,7 @@
 export const posts = [
   {
     id: 'colin-a-quiet-goodbye',
-    title: 'Colin - A quiet goodbye',
+    title: 'A quiet goodbye',
     date: new Date('2026-05-27'),
     excerpt: '',
     content: `It happens that, for whatever reason, I'm a very visual creature. It's been said that men are more visual than women but I don't believe there is a black and white split and as with almost everything, there should be a spectrum. I get stimulated visually everyday, mostly by my cats and their elegant body language, their stunning eyes.
