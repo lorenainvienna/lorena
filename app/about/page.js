@@ -21,14 +21,7 @@ export default function About() {
             </p>
           </section>
 
-          <section className={styles.section}>
-            <h2>Between Skins</h2>
-            <p>
-              Beyond this blog, I run <strong>Between Skins</strong>, a mindful bodywork and conscious touch studio based in Vienna's Neubau district. It's a space dedicated to authentic connection and somatic awareness. You can learn more at <a href="https://between-skins.eu" target="_blank" rel="noopener noreferrer">between-skins.eu</a>.
-            </p>
-          </section>
-
-          <section className={styles.section}>
+<section className={styles.section}>
             <h2>What you'll find here</h2>
             <p>
               On this blog, I share reflections, moments, and thoughts. Some entries will be deeply personal. Others might touch on identity, belonging, bodywork, relationships, or simply the beauty of everyday moments. Everything here is authentic and unfiltered.
