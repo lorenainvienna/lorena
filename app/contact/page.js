@@ -33,7 +33,7 @@ export default function Contact() {
 
     try {
       // This uses Formspree for free form submissions
-      const response = await fetch('https://formspree.io/f/xyzabc123', {
+      const response = await fetch('https://formspree.io/f/mqejwlzv', {
         method: 'POST',
         headers: {
           'Accept': 'application/json',
