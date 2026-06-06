@@ -15,8 +15,8 @@ export async function generateMetadata({ params }) {
   const { id } = await params
   const post = getPost(id)
   return {
-    title: post.title,
-    description: post.excerpt,
+    title: post ? post.title : 'Post not found',
+    description: post ? post.excerpt : 'This post does not exist',
   }
 }
 

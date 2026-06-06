@@ -65,9 +65,9 @@ I hold Leo close to the other side of my body and just take this moment in. The 
 ]
 
 export function getPost(id) {
-  return posts.find(post => post.id === id)
+  return posts.find(post => post.id === id) || null
 }
 
 export function getAllPosts() {
-  return posts.sort((a, b) => b.date - a.date)
+  return posts.slice().sort((a, b) => b.date - a.date)
 }
