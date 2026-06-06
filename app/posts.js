@@ -1,5 +1,36 @@
 export const posts = [
   {
+    id: 'i-did-not',
+    title: 'I did not',
+    date: new Date('2026-06-06'),
+    excerpt: '',
+    content: `I did not transition to be someone's exotic experience.
+
+I did not transition to fulfill someone's sexual fantasy.
+
+I did not transition to be someone's secret.
+
+I don't exist to take anyone's place nor to be treated better or worse than anybody else.
+
+I did not become myself to beg for attention or validation.
+
+I did not change my body to become more sexualized.
+
+I did not lose my male privilege to become a second-hand woman.
+
+I did not risk my well-being to make others feel more at ease.
+
+I did not go through all of this to feel less than before.
+
+I did not change my appearance to disguise as a woman.
+
+I did not transition for anybody other than myself.
+
+I did not change my essence or my values as a human being.
+
+I did not.`
+  },
+  {
     id: 'colin-a-quiet-goodbye',
     title: 'A quiet goodbye',
     date: new Date('2026-05-27'),
